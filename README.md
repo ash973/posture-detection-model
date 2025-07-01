@@ -70,5 +70,3 @@ Canvas API + Webcam API
 
 👩‍💻 Author
 Aashi P Kumar
-🔗 GitHub
-🔗 LinkedIn
