@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e1e1e, #2a2a2a);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #00ffc8;
+  color: #000;
+  padding: 16px 32px;
+  font-size: 1.6em;
+  text-align: left;
+  font-weight: bold;
+  box-shadow: 0 2px 10px rgba(0, 255, 200, 0.2);
+}
+
+main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #181818;
+  padding: 24px 20px;
+  border-right: 2px solid #00ffc8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.status-box h2 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: #00ffc8;
+}
+
+#statusLabel {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: lime;
+  margin-top: 10px;
+}
+
+.user-credit {
+  font-size: 0.9em;
+  text-align: center;
+  color: #bbb;
+  margin-top: 30px;
+}
+
+.camera-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.video-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  border-radius: 12px;
+  border: 3px solid #00ffc8;
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.2);
+  overflow: hidden;
+}
+
+video,
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+
