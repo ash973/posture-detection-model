@@ -1,0 +1,19 @@
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# TensorFlow.js files
+*.bin
+*.json
+
+# Data files
+*.csv
+kaggle.json
+
+# Python cache (if i ever use Python)
+__pycache__/
+*.pyc
+
